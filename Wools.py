@@ -102,14 +102,14 @@ jalan('\033[1;94m=========90%')
 jalan('\033[1;94m==========100%')
 print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mHL HACKING\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "Testing"
+CorrectUsername = "Testingk"
 CorrectPassword = "lovehacker"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;97m📋 \x1b[1;94mTool Username \x1b[1;97m»» \x1b[1;97m")
+    username = raw_input("\033[1;97m📋 \x1b[1;94mTool Tài Khoản \x1b[1;97m»» \x1b[1;97m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m🗝 \x1b[1;94mTool Password \x1b[1;97m»» \x1b[1;97m")
+    	password = raw_input("\033[1;97m🗝 \x1b[1;94mTool Mật Khẩu \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:love_hacker
 	    time.sleep(2)
